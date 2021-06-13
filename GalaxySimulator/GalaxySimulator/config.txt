@@ -1,0 +1,32 @@
+#############################################
+## Galaxy 1
+#############################################
+new_galaxy
+name galaxy_1
+num_particles_disk 10000
+num_particles_halo 5000
+num_particles_bulge 5000
+position 0.0 0.0 0.0
+angles 0.0 0.0 0.0
+mass 1.0 0.0 0.0
+h0 1.0
+z0 0.1
+lambda 1.0
+r_c 10.0
+a 0.1
+#############################################
+## Galaxy 2
+#############################################
+new_galaxy
+name galaxy_2
+num_particles_disk 10000
+num_particles_halo 1000
+num_particles_bulge 2000
+position 40.0 0.0 0.0
+angles 90.0 0.0 0.0
+mass 1.0 1.0 1.0
+h0 1.0
+z0 0.1
+lambda 1.0
+r_c 10.0
+a 0.1
